@@ -90,7 +90,7 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Code\AutoClickerForm.Designer.cs">
-      <DependentUpon>Code\AutoClickerForm.cs</DependentUpon>
+      <DependentUpon>AutoClickerForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Code\AutoKeyboard.cs">
       <SubType>Form</SubType>
@@ -122,9 +122,7 @@
     <Compile Include="Code\Settings.cs">
       <SubType>Form</SubType>
     </Compile>
-    <EmbeddedResource Include="AutoClickerForm.resx">
-      <DependentUpon>Code\AutoClickerForm.cs</DependentUpon>
-    </EmbeddedResource>
+    <EmbeddedResource Include="Code\AutoClickerForm.resx" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
