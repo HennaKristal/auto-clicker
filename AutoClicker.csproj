@@ -80,43 +80,43 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AutoClicker.cs">
+    <Compile Include="Code\AutoClicker.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AutoClickerForm.cs">
+    <Compile Include="Code\AutoClickerForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AutoClickerForm.Designer.cs">
+    <Compile Include="Code\AutoClickerForm.Designer.cs">
       <DependentUpon>AutoClickerForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="AutoKeyboard.cs">
+    <Compile Include="Code\AutoKeyboard.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ElementCreator.cs">
+    <Compile Include="Code\ElementCreator.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Hotkeys.cs">
+    <Compile Include="Code\Hotkeys.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="KeyHandler.cs" />
-    <Compile Include="Macros.cs">
+    <Compile Include="Code\KeyHandler.cs" />
+    <Compile Include="Code\Macros.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MouseDetector.cs">
+    <Compile Include="Code\MouseDetector.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Movement.cs">
+    <Compile Include="Code\Movement.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Navigation.cs">
+    <Compile Include="Code\Navigation.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Program.cs" />
+    <Compile Include="Code\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Save.cs">
+    <Compile Include="Code\Save.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Settings.cs">
+    <Compile Include="Code\Settings.cs">
       <SubType>Form</SubType>
     </Compile>
     <EmbeddedResource Include="AutoClickerForm.resx">
@@ -146,7 +146,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="icon.ico" />
+    <Content Include="Icons\icon.ico" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
